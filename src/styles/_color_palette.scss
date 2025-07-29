@@ -1,0 +1,14 @@
+$indigo: #27145f;
+$white: #110101;
+$dark: #dadbdb;
+$green: #065703;
+$gradient: linear-gradient(203deg, rgba(192, 90, 255, 1) 0%, rgba(67, 39, 158, 1) 100%);
+$gradient2: linear-gradient(250deg, rgba(255, 85, 219, 1) 24%, rgba(52, 108, 255, 1) 100%);
+$gradient3: linear-gradient(250deg, rgb(9, 125, 38) 24%, rgb(35, 35, 37) 100%);
+
+.green {
+  color: $green;
+}
+.indigo {
+  color: $indigo;
+}
