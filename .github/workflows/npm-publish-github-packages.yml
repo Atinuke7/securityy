@@ -16,9 +16,9 @@ jobs:
         with:
           node-version: 20
       - name: install dependencies
-      - run: npm install
+        run: npm install
 
       - name: run test
-      - run: npm test
+        run: npm test
 
   
