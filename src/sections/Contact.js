@@ -85,17 +85,17 @@ const Contact = () => {
                 <div className="grid-2">
                   <div className="inputs">
                     <span>Name</span>
-                    <input type="text" />
+                    <input type="text" className="name-input" />
                   </div>
                   <div className="inputs">
                     <span>Email</span>
-                    <input type="text" />
+                    <input type="text" className="email-input" />
                   </div>
                 </div>
 
                 <div className="inputs">
                   <span>Talk to us*</span>
-                  <textarea cols="30" rows="10"></textarea>
+                  <textarea cols="30" rows="10" className="text-input"></textarea>
                 </div>
                 <button className="button-primary">Submit</button>
               </form>
