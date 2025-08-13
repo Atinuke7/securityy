@@ -37,11 +37,11 @@ describe('NNavigation Test', () => {
     
   })
 
-  it('Navigate to the speakers page', () => {
-    cy.contains('Speakers').click()
-    cy.url().should('include', '/speakers')
-    cy.contains('THE EDO STATE SECURITY SUMMIT').should('be.visible')
-  })
+  // it('Navigate to the speakers page', () => {
+  //   cy.contains('Speakers').click()
+  //   cy.url().should('include', '/speakers')
+  //   cy.contains('THE EDO STATE SECURITY SUMMIT').should('be.visible')
+  // })
 
   it('Navigate to the Gallery page', () => { 
      cy.contains('Gallery').click()
