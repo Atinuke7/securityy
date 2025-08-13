@@ -1,7 +1,6 @@
 describe("Filling the contact form", () => {
   beforeEach(() => {
      cy.visit('https://securityy.vercel.app/')
-    // cy.visit(" http://localhost:3000"); we are supposed to take it out after testig locally or after testing on our local device but we are leaving it here for referencing puposes.
     cy.contains("Contact", { timeout: 6000 }).click();
   });
   it("Submitting with only the name", () => {
